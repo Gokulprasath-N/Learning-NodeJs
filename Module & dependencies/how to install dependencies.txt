@@ -1,0 +1,4 @@
+npm i mongoos 
+here mongoos is a package that is installed in the node 
+
+if we aceidently delete the node_modules folder then we can install all the packages by running the command npm i
