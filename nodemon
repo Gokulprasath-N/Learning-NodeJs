@@ -1,0 +1,8 @@
+we need to stop and start the server every time we make so we need to install "nodemon" package
+
+npm i -g nodemon
+
+here g is global, so we can use this module or pakage everywhere
+
+to start the server with nodemon
+ --> nodemon index.js
