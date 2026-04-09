@@ -14,3 +14,24 @@ const app = express();
 app.get("/", (req, res) => {
     res.send("Hello World!");
 });
+
+app.get("/about", (req, res) => {
+    res.send("About Page");
+});
+
+app.get("/contact", (req, res) => {
+    res.send("Contact Page");
+});
+
+app.get("/array", (req, res) => {
+    res.send([1, 2, 3, 4, 5,6]);
+});
+
+// here we start the server
+// app.listen() is used to start the server
+// 3000 is the port number
+// () => { ... } is the callback function
+// console.log() is used to print the message
+app.listen(3000, () => {
+    console.log("Server is running on port 3000");
+});
