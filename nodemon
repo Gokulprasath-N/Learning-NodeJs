@@ -1,8 +1,12 @@
 we need to stop and start the server every time we make so we need to install "nodemon" package
-
 npm i -g nodemon
-
 here g is global, so we can use this module or pakage everywhere
-
 to start the server with nodemon
  --> nodemon index.js
+
+here g is for global
+
+dependency --> used in the learning process
+1. npm i express
+2. npm i nodemon
+3. npm i joi
