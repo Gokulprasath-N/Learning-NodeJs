@@ -1,0 +1,4 @@
+middleware is a basicaly fuction take request from the user and send it to the server --> either responseto the client or process to the next middleware
+
+express.use(express.json()); --> this is a middleware used to parse the JSON data from the request body
+
