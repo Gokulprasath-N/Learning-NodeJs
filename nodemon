@@ -7,6 +7,9 @@ to start the server with nodemon
 here g is for global
 
 dependency --> used in the learning process
-1. npm i express
-2. npm i nodemon
-3. npm i joi
+1. npm i express --> used for building web applications
+2. npm i nodemon --> used for restarting the server automatically
+3. npm i joi --> used for validation
+4. npm i config --> used for configuration
+5. npm i debug --> used for debugging
+6. npm i mongoose --> used for connecting to the database
