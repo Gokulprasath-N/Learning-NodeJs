@@ -13,3 +13,7 @@ dependency --> used in the learning process
 4. npm i config --> used for configuration
 5. npm i debug --> used for debugging
 6. npm i mongoose --> used for connecting to the database
+7. npm i lodash --> used for utility functions
+8. npm i bcrypt --> used for hashing passwords, it uses salt to hash the passwords, like we give 123 as our password, it ad some random string to it and then hash it, so that even if someone gets the password from the database, they can't use it
+
+9.npm i jsonwebtoken --> used for authentication

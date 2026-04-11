@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 import customers from "./routes/customers.js";
 import genres from "./routes/genres.js";
 import movies from "./routes/movies.js";
-
+import rentals from "./routes/rentals.js";
 const app = express();
 
 mongoose.connect('mongodb://localhost:27017/vidly_2_0')
@@ -17,6 +17,8 @@ app.use('/api/customers', customers);
 app.use('/api/genres', genres);
 // use movie router
 app.use('/api/movies', movies);
+// use rentals router
+app.use('/api/rentals', rentals);
 
 const port = 3000;
 app.listen(port, () => console.log(`Listening on port ${port}...`));

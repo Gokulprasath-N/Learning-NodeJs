@@ -1,0 +1,8 @@
+// authentication - who is this user? or who are you?
+// authorization - what can this user do? what permission do you have?
+
+what is middleware?
+Middleware in Node.js (primarily used with the Express.js framework) is a function that sits between an incoming HTTP request and the final server response.
+
+
+https://www.jwt.io/ - JWT.io is a free online tool that helps you understand, debug, and work with JSON Web Tokens (JWT). It allows you to decode, verify, and create JWTs to see how they work in real-time.
